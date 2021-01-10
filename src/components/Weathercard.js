@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Weathercard.css";
+//import "./Weathercard.css";
 
 const WeatherCard = ({ dt, temp_min, temp_max, main, icon }) => {
   const date = new Date(dt);

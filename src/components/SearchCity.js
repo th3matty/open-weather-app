@@ -9,7 +9,7 @@ const SearchCity = ({ onSearch }) => {
         <div>
           <div>
             <h1>Search your city</h1>
-            <hr></hr>
+            {/* <hr></hr> */}
           </div>
         </div>
 
