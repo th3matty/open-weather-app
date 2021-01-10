@@ -1,22 +1,15 @@
-/* .wrapper {
-    width: max-content;
-    height: auto;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    box-sizing: border-box;
-    background: #ecf0f3;
-    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
-  }
-  
-  .logo {
-    height: 100px;
-    width: 100px;
-    margin: 50px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    background: #c7d1d8;
-    box-shadow: 7px 7px 10px #98a3ad, -7px -7px 10px white;
-  }
-   */
+.logo {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #e5ebf0;
+  box-shadow: 7px 7px 10px #98a3ad, -7px -7px 10px white;
+}
+.logo img {
+  transition: transform 0.7s ease;
+}
+.logo:hover img {
+  transform: scale(1.2);
+}

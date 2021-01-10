@@ -28,7 +28,7 @@ const App = () => {
         }
       />
       {/* conditionally render  */}
-      {getContent()}
+      <div className="cardCointainer">{getContent()}</div>
     </div>
   );
 };

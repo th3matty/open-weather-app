@@ -1,5 +1,5 @@
 import React from "react";
-//import "./Weathercard.css";
+import "./WeatherCard.css";
 
 const WeatherCard = ({ dt, temp_min, temp_max, main, icon }) => {
   const date = new Date(dt);
@@ -7,14 +7,17 @@ const WeatherCard = ({ dt, temp_min, temp_max, main, icon }) => {
   return (
     <div className="wrapper">
       <div className="logo">
-        <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="weather pic" />
+        <img
+          src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
+          alt="Weather-Pic"
+        />
       </div>
       <div>
-        <p style={{fontSize : 25}}> {main} </p>
+        <p style={{ fontSize: 25 }}> {main} </p>
         <p>
           {" "}
           {date.toLocaleDateString("de-DE")} -{" "}
-          {date.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'})}
+          {date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
         </p>
         <p>
           Min: <span style={{ paddingLeft: "2px" }}> {temp_min} °C</span>

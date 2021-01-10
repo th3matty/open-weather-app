@@ -1,9 +1,14 @@
 .App {
   text-align: center;
   font: normal small-caps normal 16px/1.4 Georgia;
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  padding: 10px;
 }
-
-.row {
-  justify-content: center;
-  margin: 15px 0;
+.cardCointainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
 }

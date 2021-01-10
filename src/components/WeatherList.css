@@ -1,0 +1,16 @@
+.weatherList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cardWrapper {
+  width: auto;
+  height: auto;
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}

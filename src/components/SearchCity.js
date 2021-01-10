@@ -7,29 +7,23 @@ const SearchCity = ({ onSearch }) => {
     <>
       <div className="container">
         <div>
-          <div>
-            <h1>Search your city</h1>
-            {/* <hr></hr> */}
-          </div>
+          <h1>Search your city</h1>
+          <hr></hr>
         </div>
 
         <div>
-          <div>
-            <input
-              className="input"
-              placeholder="Enter city"
-              onChange={(event) => setCity(event.target.value)}
-              value={city}
-            />
-          </div>
+          <input
+            className="input"
+            placeholder="Enter city"
+            onChange={(event) => setCity(event.target.value)}
+            value={city}
+          />
         </div>
 
         <div>
-          <div>
-            <button className="searchButton" onClick={() => onSearch(city)}>
-              Check Weather
-            </button>
-          </div>
+          <button className="searchButton" onClick={() => onSearch(city)}>
+            Check Weather
+          </button>
         </div>
       </div>
     </>
